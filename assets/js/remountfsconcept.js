@@ -1,0 +1,57 @@
+function cydiarep() {
+window.open('cydiarep/index.html');
+}
+function concept() {
+setTimeout(function () {document.getElementById("logCurrent").innerHTML="Intializing Jailbreak<br><br>"}, 2000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 1/50 (sending exploit)<br><br>"}, 4000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 2/50 (reading data)<br><br>"}, 5000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 3/50 (Injecting ShellCode)<br><br>"}, 7000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 4/50 (Shellcode Appended to '/tmp/sh3llc0d3/shellcode.sh') <br><br>"}, 10000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 5/50 (Checking ShellCode SHASUM) <br><br>"}, 11000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 6/50 (SHASUM seems to checkout) <br><br>"}, 20000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 7/50 (Executing ShellCode.sh)<br><br>"}, 21000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 8/50 (Exit Code '0')<br><br>"}, 23000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 9/50 (Injecting .jailbreakme to '/')<br><br>"}, 24000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 10/50 (Injecting '/usr/libexec/startup' folder)<br><br>"}, 26000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 11/50 (Injecting '/usr/bin' Folder)<br><br>"}, 27000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 12/50 (Replacing some Apple Security Profiles with some of our decoy files)<br><br>"}, 29000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 13/50 (Files Replaced Successfully!!)<br><br>"}, 33000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 14/50 (Moving to Stage 2)<br><br>"}, 34000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 15/50 (Stage 2 Successfully initiated)<br><br>"}, 37000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 16/50 (Injecting Payload to /tmp/Payload/ThisAintItChief.tar.gz)<br><br>"}, 50000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 17/50 (Extracting Payload)<br><br>"}, 55000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 18/50 (Payload Successfully Extracted)<br><br>"}, 56000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 19/50 (Moving to /System/Library/Filesystems/)<br><br>"}, 58000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 20/50 (Removing APFS Binary)<br><br>"}, 60000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 21/50 (Copying over new APFS Binary)<br><br>"}, 70000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 22/50 (Using offset 'system' [0x1809e2700] to run commands as root)<br><br>"}, 73000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 23/50 (Running Integrity check on '/') <br><br>"}, 75000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 24/50 (5%)<br><br>"}, 77000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 25/50 (11%)<br><br>"}, 78000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 26/50 (19%)<br><br>"}, 80000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 27/50 (34%)<br><br>"}, 95000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 28/50 (35%)<br><br>"}, 100000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 29/50 (39%)<br><br>"}, 110000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 30/50 (44%)<br><br>"}, 111000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 31/50 (54%)<br><br>"}, 112000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 32/50 (59%)<br><br>"}, 115000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 33/50 (67%)<br><br>"}, 116000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 34/50 (68%)<br><br>"}, 119000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 35/50 (69%)<br><br>"}, 123000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 36/50 (70%)<br><br>"}, 136000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 37/50 (76%)<br><br>"}, 139000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 38/50 (83%)<br><br>"}, 145000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 39/50 (87%)<br><br>"}, 147000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 40/50 (89%)<br><br>"}, 150000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 41/50 (99%)<br><br>"}, 160000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 42/50 (Integrity Checks Out)<br><br>"}, 170000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 43/50 (Cleaning the rough edges)<br><br>"}, 180000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 44/50 (Removing temporary files and folders)<br><br>"}, 182000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 45/50 (Removing Jailbreak ShellCode Cache<br><br>"}, 186000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 46/50 (Removing ShellCode from persistence storage<br><br>"}, 187000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 47/50 (Prepairing Environment)<br><br>"}, 190000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 48/50 (Completely Prepaired)<br><br>"}, 192000);
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking 49/50 (Would you like to reboot?)<br><br>"}, 196000); 
+setTimeout(function () {document.getElementById("logCurrent").innerHTML+="Jailbreaking Done!! Rebooting now!! (To bad, we have to!!)<br><br>"}, 200000);
+setTimeout(function () {cydiarep()}, 203000);
+}
