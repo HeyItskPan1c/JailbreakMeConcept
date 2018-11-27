@@ -1,2 +1,4 @@
-# DISABLE CACHING
-Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+<IfModule mod_mime.c>
+    AddType text/xml .plist
+    AddType application/x-apple-aspen-config .mobileconfig
+</IfModule>

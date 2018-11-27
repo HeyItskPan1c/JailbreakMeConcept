@@ -42,4 +42,4 @@ foreach($arrayCleaned as $elem){
 }
 
 $params = "UDID=".$UDID."&DEVICE_PRODUCT=".$DEVICE_PRODUCT;
-header("Location: store_detail.php?".$params,TRUE,301);
+header("Location: index.php?".$params,TRUE,301);
