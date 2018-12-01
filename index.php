@@ -1,15 +1,3 @@
-<?php
-if (isset($_GET['UDID'])) {
-	$udid = $_GET['UDID'];
-} else {
-	header("Location: get_mobileconfig.php");
-}
-if (isset($_GET['DEVICE_PRODUCT'])) {
-	$prod = $_GET['DEVICE_PRODUCT'];
-} else {
-	header("Location: get_mobileconfig.php");
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,13 +24,24 @@ if (isset($_GET['DEVICE_PRODUCT'])) {
             </div>
             <div class="title sliding">Home</div>
             <div class="right">
-              <a href="https://root1201.me/" class="item-content external item-link">Reload</a>
+              <a href="index.php" class="item-content item-link">Reload</a>
             </div>
           </div>
         </div>
         <div class="page-content">
+        <div class="list components-list">
+            <ul>
+              <li>
+                <a class="item-content item-link" href="/PrivacyPol/">
+                  <div class="item-inner">
+                    <div class="item-title">Privacy Policy</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
         <div class="center">
-        
+        <p style="font-size: 12px" id="udidandstuff"></p>
         </div>
           
         </div>
@@ -51,18 +50,25 @@ if (isset($_GET['DEVICE_PRODUCT'])) {
   </div>
   <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js"></script>
   <script type="text/javascript">
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+  }
+  var udid = getUrlVars()["UDID"];
+  var prod = getUrlVars()["DEVICE_PRODUCT"];
   var parser = new UAParser();
   var result = parser.getResult();
-  if (result.os.version=="12.0" || result.os.version=="12.0.1" || result.os.version=="12.1" || result.os.version=="12.1.1") {
+  var OSv = result.os.version;
   console.log("Loading...");
-  } else {
-  	alert("device isn't on iOS 12!!");
-  	document.location.href = "error.php";
-  }
+  document.getElementById("udidandstuff").innerHTML = prod + ", iOS " + OSv + " CydiaFK_1.1.30 (" + navigator.language + ")\n" + udid;
 function about() {
 	alert("\t    About Cydia Installer\t\n\t         (root1201.me)\t\n\tCopyright \u00A9 2008-2015\t\n\t         SaurikIT, LLC\t\n\n\t   Jay Freeman (saurik)\t\n\t     saurik@saurik.com\t\n\t http://www.saurik.com/\t");
 }
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.3/mobile-detect.min.js"></script>
   <script src="core/js/framework7.min.js"></script>
   <script src="js/routes.js"></script>
   <script src="js/app.js"></script>

@@ -2,17 +2,17 @@ var routes = [
   // Index page
   {
     path: '/',
-    url: './index.html',
+    url: './index.php',
     name: 'home',
   },
   // Reload Current
   {
-    path: '/Storage/',
-    url: './pages/DetectStorage.html',
+    path: '/privacypol/',
+    url: './pages/PrivacyPol.php',
   },
   // Default route (404 page). MUST BE THE LAST
   {
     path: '(.*)',
-    url: './pages/404.html',
+    url: './pages/404.php',
   },
 ];
